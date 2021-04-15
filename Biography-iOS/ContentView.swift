@@ -11,17 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ZStack {
-                Image("steve")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .blur(radius: 10, opaque: true)
+                BlurImage(name: "steve", blurRadius: 10)
                 
-                Image("steve")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 100, height: 100)
-                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                CircleImage(name: "steve", frameWidth: 100, frameHeight: 100, shadowRadius: 10)
             }
             
             VStack (alignment: .leading) {

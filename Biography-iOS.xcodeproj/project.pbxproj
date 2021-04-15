@@ -11,6 +11,8 @@
 		0B7D810926247CEC00444FE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7D810826247CEC00444FE0 /* ContentView.swift */; };
 		0B7D810B26247CED00444FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D810A26247CED00444FE0 /* Assets.xcassets */; };
 		0B7D810E26247CED00444FE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7D810D26247CED00444FE0 /* Preview Assets.xcassets */; };
+		0BDCE9D22628921300AD514B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCE9D12628921300AD514B /* CircleImage.swift */; };
+		0BDCE9D52628964F00AD514B /* BlurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCE9D42628964F00AD514B /* BlurImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0B7D810A26247CED00444FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B7D810D26247CED00444FE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B7D810F26247CED00444FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDCE9D12628921300AD514B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		0BDCE9D42628964F00AD514B /* BlurImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		0B7D810526247CEC00444FE0 /* Biography-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0BDCE9D0262891FD00AD514B /* View */,
 				0B7D810626247CEC00444FE0 /* Biography_iOSApp.swift */,
 				0B7D810826247CEC00444FE0 /* ContentView.swift */,
 				0B7D810A26247CED00444FE0 /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				0B7D810D26247CED00444FE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0BDCE9D0262891FD00AD514B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BDCE9D12628921300AD514B /* CircleImage.swift */,
+				0BDCE9D42628964F00AD514B /* BlurImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				0B7D810926247CEC00444FE0 /* ContentView.swift in Sources */,
 				0B7D810726247CEC00444FE0 /* Biography_iOSApp.swift in Sources */,
+				0BDCE9D52628964F00AD514B /* BlurImage.swift in Sources */,
+				0BDCE9D22628921300AD514B /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
